@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fffafa;
+}
+
+header{
+    background-color: #191970;
+    color: white;
+}
+
+header .container{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    width: 102%;
+    grid-template-columns: 82% 5% 15%;
+    align-items: center;
+    padding: 5px 0;
+}
+
+header h1{
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+header h1:hover{
+    text-decoration: underline;
+}
+
+header .login-1{
+    margin-right: 80px;
+}
+
+header nav li{
+    display: inline;
+    margin: 16px;
+}
+
+header nav li:hover{
+    text-decoration: underline;
+}
+
+header .container nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.header-perfil{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #191970;
+    height: 27px;
+    position: relative;
+    left: 1615px;
+    bottom: 40px;
+    cursor: pointer;
+}
+
+.Bandeira{
+    height: 45px;
+    cursor: pointer;
+}
+
+section .face h2{
+    font-size: 40px;
+}
+
+section .face h2, h3{
+    margin-left: 417px;
+}
+
+section .face{
+    background-color: #191970;
+    color:  white;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 11px 0;
+}
+
+.face-text h2, h3{
+    font-weight: normal;
+    cursor: default;
+}
+
+.forms{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 16.6% 16.6% 16.6% 10%;
+    align-items: center;
+    margin-left: 417px;
+}
+
+.form-1{
+    border: 5px solid white;
+    border-radius: 6px 1px 1px 6px;
+    height: 65px;
+    width: 300px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.form-2{
+    border: 5px solid white;
+    height: 65px;
+    width: 300px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.form-3{
+    border: 5px solid white;
+    height: 65px;
+    width: 300px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.button{
+    border: 5px solid #6959CD;
+    border-radius: 1px 10px 10px 1px;
+    background-color: #6959CD;
+    color: white;
+    height: 65px;
+    width: 100px;
+    cursor: pointer;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #836FFF;
+    border: 5px solid #836FFF;
+}
+
+.options{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 35% 20% 20%;
+    margin-left: 440px;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.options form label{
+    color:  white;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.options-cursor{
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+}
+
+section .HAE{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 33.3% 30.7% 33.3%;
+}
+
+section .HAE button{
+    background-color: #191970;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}
+
+section .HAE button:hover{
+    background-color: #6959CD;
+}
+
+.H{
+    height: 60px;
+    width: 390px;
+    margin-left: 325px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.A{
+    height: 60px;
+    width: 390px;
+    margin-left: 138px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.E{
+    height: 60px;
+    width: 383px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+section img{
+    height: 525px;
+    width: 1250px;
+    border-radius: 20px;
+    position: relative;
+    left: 325px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.textos-img{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #fffafa;
+    position: relative;
+    left: 380px;
+    bottom: 470px;
+    cursor: pointer;
+}
+
+.textos-img-2{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #fffafa;
+    position: relative;
+    left: 380px;
+    bottom: 460px;
+    cursor: pointer;
+}
+
+.button-ofertas{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 3px 3.5px gray;
+    background-color: white;
+    color: #000;
+    position: relative;
+    left: 380px;
+    bottom: 430px;
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.button-ofertas:hover{
+    background-color: grey;
+    border: none;
+}
+
+.paises{
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+}
+
+.PM{
+    position: relative;
+    left: 325px;
+    bottom: 170px;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.Rio-img{
+    height: 100px;
+    width: 115px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 135px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+.rio-branco{
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    display: block;
+}
+
+.Rio-text{
+    position: relative;
+    bottom: 215px;
+    left: 430px;
+}
+
+.Paris-img{
+    height: 100px;
+    width: 115px;
+    position: relative;
+    bottom: 135px;
+    left: 18.5%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.Paris-text{
+    position: relative;
+    bottom: 233px;
+    left: 869px;
+}
+
+.NY-img{
+    height: 100px;
+    width: 115px;
+    position: relative;
+    bottom: 135px;
+    left: 20.5%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.NY-text{
+    position: relative;
+    bottom: 460px;
+    left: 1308px;
+}
+
+.PM-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: default;
+    size: 1px;
+}
+
+footer{
+    padding: 9px 0;
+    background-color: #191970;
+    color: white;
+}
+
+.footer{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 30% 30% 30%;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+footer nav li{
+    display: inline;
+}
+
+.help{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 400px;
+}
+
+.help:hover{
+    text-decoration: underline;
+}
+
+.login-2{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 627px;
+}
+
+.login-2:hover{
+    text-decoration: underline;
+}
+
+.termos{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 827px;
+}
+
+.termos:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fffafa;
+}
+
+header{
+    background-color: #191970;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    width: 90%;
+    grid-template-columns: 85% 5%;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 21.3px;
+}
+
+header h1{
+    margin-left: 80px;
+}
+
+header h1:hover{
+    text-decoration: underline;
+}
+
+.Bandeira{
+    height: 45px;
+    margin-right: 326px;
+    cursor: pointer;
+
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button{
+    border-radius: 5px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: #191970;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    box-shadow: 1px 3px 3.5px gray;
+}
+
+form button:hover{
+    background-color: #6959CD;
+}
+
+section .continuar{
+    display: flex;
+    align-items: center;
+}
+
+section h2, h4, h6{
+    font-weight: normal;
+}
+
+section img{
+    height: 40px;
+}
+
+.face{
+    margin-left: 797px;
+}
+
+.app{
+    margin-left: 70px;
+}
+
+.goo{
+    margin-left: 70px;
+}

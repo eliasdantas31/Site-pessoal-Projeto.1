@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fffafa;
+}
+
+header{
+    background-color: #191970;
+    color: white;
+}
+
+header .container{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    width: 102%;
+    grid-template-columns: 82% 5% 15%;
+    align-items: center;
+    padding: 24px 0;
+}
+
+header h1{
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+header h1:hover{
+    text-decoration: underline;
+}
+
+header .login-1{
+    margin-right: 80px;
+}
+
+header nav li{
+    display: inline;
+    margin: 16px;
+}
+
+header nav li:hover{
+    text-decoration: underline;
+}
+
+header .container nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.header-perfil{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #191970;
+    height: 27px;
+    position: relative;
+    left: 635px;
+    bottom: 150px;
+    cursor: pointer;
+}
+
+.Bandeira{
+    height: 45px;
+    cursor: pointer;
+}
+
+.Menu-butt{
+    color: white;
+    text-decoration: none;
+}
