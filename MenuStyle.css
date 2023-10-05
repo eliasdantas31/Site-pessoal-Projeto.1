@@ -284,9 +284,9 @@ section img{
 }
 
 .paises{
-    display: flex;
-    width: 1000px;
-    height: 1000px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 15.66% 7.66% 15.66% 7.66% 15.66% 7.66%;
 }
 
 .PM{
@@ -306,53 +306,57 @@ section img{
     height: 100px;
     width: 115px;
     border-radius: 10px;
-    position: relative;
-    bottom: 135px;
     box-shadow: 2px 3px 3.5px gray;
 }
+
 .rio-branco{
-    background-color: white;
-    width: 200px;
+    border-radius: 1px 10px 10px 1px;
+    width: 300px;
     height: 100px;
-    display: block;
+    position: relative;
+    left: 135px;
 }
 
 .Rio-text{
-    position: relative;
-    bottom: 215px;
-    left: 430px;
+    
 }
 
 .Paris-img{
     height: 100px;
     width: 115px;
-    position: relative;
-    bottom: 135px;
-    left: 18.5%;
     border-radius: 10px;
     box-shadow: 2px 3px 3.5px gray;
 }
 
-.Paris-text{
+.paris-branco{
+    border-radius: 1px 10px 10px 1px;
+    width: 300px;
+    height: 100px;
     position: relative;
-    bottom: 233px;
-    left: 869px;
+    left: 135px;
+}
+
+.Paris-text{
+
 }
 
 .NY-img{
     height: 100px;
     width: 115px;
-    position: relative;
-    bottom: 135px;
-    left: 20.5%;
     border-radius: 10px;
     box-shadow: 2px 3px 3.5px gray;
 }
 
-.NY-text{
+.NY-branco{
+    border-radius: 1px 10px 10px 1px;
+    width: 300px;
+    height: 100px;
     position: relative;
-    bottom: 460px;
-    left: 1308px;
+    left: 135px;
+}
+
+.NY-text{
+
 }
 
 .PM-text{
