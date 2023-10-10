@@ -104,7 +104,7 @@ section .face{
 
 .form-1{
     border: 5px solid white;
-    border-radius: 6px 1px 1px 6px;
+    border-radius: 10px 1px 1px 10px;
     height: 65px;
     width: 300px;
     padding-left: 5px;
@@ -202,14 +202,14 @@ section .HAE button:hover{
 .H{
     height: 60px;
     width: 390px;
-    margin-left: 325px;
+    margin-left: 340px;
     box-shadow: 2px 3px 3.5px gray;
 }
 
 .A{
     height: 60px;
     width: 390px;
-    margin-left: 138px;
+    margin-left: 146.5px;
     box-shadow: 2px 3px 3.5px gray;
 }
 
@@ -287,6 +287,14 @@ section img{
     display: grid;
     width: 100%;
     grid-template-columns: 15.66% 7.66% 15.66% 7.66% 15.66% 7.66%;
+    position: relative;
+    bottom: 100px;
+}
+
+.paises-2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 15.66% 7.66% 15.66% 7.66% 15.66% 7.66%;
 }
 
 .PM{
@@ -302,7 +310,7 @@ section img{
     font-size: 15px;
 }
 
-.Rio-img{
+.paises-img{
     height: 100px;
     width: 115px;
     border-radius: 10px;
@@ -318,14 +326,10 @@ section img{
 }
 
 .Rio-text{
-    
-}
-
-.Paris-img{
-    height: 100px;
-    width: 115px;
-    border-radius: 10px;
-    box-shadow: 2px 3px 3.5px gray;
+    position: relative;
+    left: 440px;
+    bottom: 280px;
+    font-size: 20px;
 }
 
 .paris-branco{
@@ -337,14 +341,10 @@ section img{
 }
 
 .Paris-text{
-
-}
-
-.NY-img{
-    height: 100px;
-    width: 115px;
-    border-radius: 10px;
-    box-shadow: 2px 3px 3.5px gray;
+    position: relative;
+    left: 870px;
+    bottom: 300px;
+    font-size: 20px;
 }
 
 .NY-branco{
@@ -356,7 +356,55 @@ section img{
 }
 
 .NY-text{
+    position: relative;
+    left: 1300px;
+    bottom: 320px;
+    font-size: 20px;
+}
 
+.Tokyo-branco{
+    border-radius: 1px 10px 10px 1px;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 135px;
+}
+
+.Tokyo-text{
+    position: relative;
+    left: 440px;
+    bottom: 145px;
+    font-size: 20px;
+}
+
+.Barcelona-branco{
+    border-radius: 1px 10px 10px 1px;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 135px;
+}
+
+.Barcelona-text{
+    position: relative;
+    left: 870px;
+    bottom: 170px;
+    font-size: 20px;
+}
+
+.Sydney-branco{
+    border-radius: 1px 10px 10px 1px;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 135px;
+}
+
+.Sydney-text{
+    position: relative;
+    left: 1300px;
+    bottom: 190px;
+    font-size: 20px;
 }
 
 .PM-text{
