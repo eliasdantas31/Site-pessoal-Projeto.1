@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fffafa;
+}
+
+header{
+    background-color: #fffafa;
+}
+
+header .container{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    width: 102%;
+    grid-template-columns: 82% 5% 15%;
+    align-items: center;
+    padding: 24px 0;
+}
+
+header h1{
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+header h1:hover{
+    text-decoration: underline;
+}
+
+header .login-1{
+    margin-right: 80px;
+    font-weight: bold;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+header nav li{
+    display: inline;
+    margin: 16px;
+}
+
+header nav li:hover{
+    text-decoration: underline;
+}
+
+header .container nav li a{
+    text-decoration: none;
+    color: #191970;
+    font-size: 20px;
+}
+
+.header-perfil{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #191970;
+    height: 27px;
+    position: relative;
+    left: 635px;
+    bottom: 150px;
+    cursor: pointer;
+}
+
+.Bandeira{
+    height: 45px;
+    cursor: pointer;
+}
+
+.Menu-butt{
+    color: #191970;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.img-1{
+    width: 1855px;
+    height: 600px;
+}
+
+.img-1-text{
+    color: #fffafa;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    position: relative;
+    left: 580px;
+    bottom: 450px;
+    cursor: default;
+}
+
+.form{
+    height: 150px;
+    width: 1164px;
+    background-color: #191970;
+    border-radius: 10px;
+    position: relative;
+    bottom: 430px;
+    left: 352px;
+}
+
+.search{
+    height: 50px;
+    width: 500px;
+    padding: 5px;
+    border: none;
+    color: #191970;
+    border-radius: 5px 1px 1px 5px;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    position: relative;
+    right: 110px;
+    top: 45px;
+}
+
+.search-label{
+    color: #fffafa;
+    position: relative;
+    left: 35px;
+    top: 5px;
+    cursor: pointer;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.date-1{
+    height: 50px;
+    width: 200px;
+    border: none;
+    color: #191970;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    right: 173px;
+    top: 45px;
+}
+
+.date-1-label{
+    color: #fffafa;
+    position: relative;
+    right: 85px;
+    top: 5px;
+    cursor: pointer;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.date-2{
+    height: 50px;
+    width: 200px;
+    border: none;
+    color: #191970;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    left: 737px;
+    bottom: 6px;
+}
+
+.date-2-label{
+    color: #fffafa;
+    position: relative;
+    right: 145px;
+    top: 5px;
+    cursor: pointer;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-search{
+    height: 50px;
+    width: 200px;
+    border: none;
+    color: #191970;
+    background-color: #fffafa;
+    border-radius: 1px 10px 10px 1px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: 740px;
+    bottom: 6px;
+    cursor: pointer;
+}
+
+.button-search:hover{
+    background-color: #6959CD;
+    color: #fffafa;
+}
+
+.form-text{
+    position: relative;
+    bottom: 470px;
+    left: 390px;
+    color: #fffafa;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    cursor: default;
+}
+
+.checkbox-1{
+    position: relative;
+    bottom: 485px;
+    left: 385px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.checkbox-1-label{
+    position: relative;
+    bottom: 486px;
+    left: 550px;
+    color: #fffafa;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 15px
+}
+
+.checkbox-2{
+    position: relative;
+    bottom: 485px;
+    left: 450px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.checkbox-2-label{
+    position: relative;
+    bottom: 486px;
+    left: 588px;
+    color: #fffafa;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 15px
+}
+
+.checkbox-3{
+    position: relative;
+    bottom: 485px;
+    left: 480px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.checkbox-3-label{
+    position: relative;
+    bottom: 486px;
+    left: 619px;
+    color: #fffafa;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 15px
+}
+
+.ofertas{
+    position: relative;
+    bottom: 180px;
+}
+
+.ofertas-img{
+    height: 525px;
+    width: 1250px;
+    border-radius: 20px;
+    position: relative;
+    left: 325px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.textos-img{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #fffafa;
+    position: relative;
+    left: 380px;
+    bottom: 470px;
+    cursor: pointer;
+}
+
+.textos-img-2{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #fffafa;
+    position: relative;
+    left: 380px;
+    bottom: 460px;
+    cursor: pointer;
+}
+
+.button-ofertas{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 3px 3.5px gray;
+    background-color: white;
+    color: #000;
+    position: relative;
+    left: 380px;
+    bottom: 430px;
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.button-ofertas:hover{
+    background-color: grey;
+    border: none;
+}
+
+.paises-img{
+    position: relative;
+    bottom: 300px;
+}
+
+.paises-title{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    left: 330px;
+}
+
+.paises-sub-title{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    position: relative;
+    left: 330px;
+}
+
+.RJ-img{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    left: 330px;
+    top: 25px;
+    border-radius: 5px 5px 1px 1px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.RJ-branco{
+    height: 100px;
+    width: 350px;
+    position: relative;
+    right: 24px;
+    top: 110px;
+    border-radius: 1px 1px 5px 5px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.PR-img{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    top: 25px;
+    left: 76px;
+    border-radius: 5px 5px 1px 1px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.PR-branco{
+    height: 100px;
+    width: 350px;
+    position: relative;
+    top: 110px;
+    right: 278px;
+    border-radius: 1px 1px 5px 5px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.NY-img{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    right: 180px;
+    top: 25px;
+    border-radius: 5px 5px 1px 1px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.NY-branco{
+    height: 100px;
+    width: 350px;
+    position: relative;
+    left: 1236px;
+    bottom: 145px;
+    border-radius: 1px 1px 5px 5px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.TK-img{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    right: 25px;
+    top: 250px;
+    border-radius: 5px 5px 1px 1px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.TK-branco{
+    height: 100px;
+    width: 350px;
+    position: relative;
+    top: 325px;
+    right: 380px;
+    border-radius: 1px 1px 5px 5px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.BL-img{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    right: 277px;
+    top: 250px;
+    border-radius: 5px 5px 1px 1px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.BL-branco{
+    height: 100px;
+    width: 350px;
+    position: relative;
+    right: 631px;
+    top: 325px;
+    border-radius: 1px 1px 5px 5px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.SY-img{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    left: 1236px;
+    bottom: 5px;
+    border-radius: 5px 5px 1px 1px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.SY-branco{
+    height: 100px;
+    width: 350px;
+    position: relative;
+    top: 68px;
+    left: 882px;
+    border-radius: 1px 1px 5px 5px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+footer{
+    padding: 9px 0;
+    background-color: #191970;
+    color: white;
+}
+
+.footer{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 30% 30% 30%;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+footer nav li{
+    display: inline;
+}
+
+.help{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 400px;
+}
+
+.help:hover{
+    text-decoration: underline;
+}
+
+.login-2{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 627px;
+}
+
+.login-2:hover{
+    text-decoration: underline;
+}
+
+.termos{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 827px;
+}
+
+.termos:hover{
+    text-decoration: underline;
+}

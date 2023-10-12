@@ -174,13 +174,13 @@ button:hover{
     width: 18px;
 }
 
-section .HAE{
+section .HE{
     display: grid;
     width: 100%;
-    grid-template-columns: 33.3% 30.7% 33.3%;
+    grid-template-columns: 50% 50%;
 }
 
-section .HAE button{
+section .HE button{
     background-color: #191970;
     color: white;
     cursor: pointer;
@@ -195,27 +195,24 @@ section .HAE button{
     border: none;
 }
 
-section .HAE button:hover{
+section .HE button:hover{
     background-color: #6959CD;
 }
 
 .H{
     height: 60px;
     width: 390px;
+    position: relative;
+    left: 120px;
     margin-left: 340px;
-    box-shadow: 2px 3px 3.5px gray;
-}
-
-.A{
-    height: 60px;
-    width: 390px;
-    margin-left: 146.5px;
     box-shadow: 2px 3px 3.5px gray;
 }
 
 .E{
     height: 60px;
     width: 383px;
+    position: relative;
+    left: 120px;
     box-shadow: 2px 3px 3.5px gray;
 }
 
