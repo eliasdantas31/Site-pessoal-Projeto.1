@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fffafa;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #fffafa;
+}
+
+header .container{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    width: 102%;
+    grid-template-columns: 82% 5% 15%;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.Menu-butt{
+    margin-left: 100px;
+    color: #191970;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Menu-butt:hover{
+    text-decoration: underline;
+}
+
+header .login-1{
+    margin-right: 80px;
+    font-weight: bold;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+header nav li{
+    display: inline;
+    margin: 16px;
+}
+
+header nav li:hover{
+    text-decoration: underline;
+}
+
+header .container nav li a{
+    text-decoration: none;
+    color: #191970;
+    font-size: 20px;
+}
+
+.header-perfil{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #191970;
+    height: 27px;
+    position: relative;
+    left: 635px;
+    bottom: 150px;
+    cursor: pointer;
+}
+
+.Bandeira{
+    height: 45px;
+    cursor: pointer;
+}
+
+.img-fundo{
+    height: 500px;
+    width: 1853.5px;
+}
+
+.img-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #fffafa;
+    position: relative;
+    bottom: 370px;
+    left: 590px;
+}
+
+.search{
+    height: 45px;
+    width: 600px;
+    padding: 10px;
+    border-radius: 3px;
+    position: relative;
+    bottom: 340px;
+    left: 530px;
+    border: none;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.search-button{
+    height: 47px;
+    width: 150px;
+    cursor: pointer;
+    background-color: #191970;
+    border: none;
+    color: #fffafa;
+    border-radius: 3px;
+    position: relative;
+    bottom: 340px;
+    left: 540px;
+    transition: 0.2s;
+    font-size: 17px;
+}
+
+.search-button:hover{
+    background-color: #6959CD;
+    color: #fffafa;
+}
+
+.aviso-branco{
+    width: 850px;
+    height: 100px;
+    border: 1px solid #ffae00;
+    border-radius: 5px;
+    position: relative;
+    left: 510px; 
+}
+
+.aviso-title{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 90px;
+    left: 520px;
+}
+
+.aviso-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    position: relative;
+    bottom: 75px;
+    left: 520px;
+}
+
+.aviso-title-1{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #191970;
+    position: relative;
+    left: 535px;
+}
+
+.aviso-icons{
+    position: relative;
+    left: 535px;
+    background-color: white;
+    box-shadow: 2px 3px 3.5px gray;
+    cursor: pointer;
+}
+
+.Reservas{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #6959CD;
+    position: relative;
+    bottom: 290px;
+    left: 630px;
+    cursor: pointer;
+}
+
+.Notifição{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #6959CD;
+    position: relative;
+    bottom: 310px;
+    left: 905px;
+    cursor: pointer;
+}
+
+.Viagens{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #6959CD;
+    position: relative;
+    bottom: 335px;
+    left: 1175px;
+    cursor: pointer;
+}
+
+.Pesquisar{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #6959CD;
+    position: relative;
+    bottom: 125px;
+    left: 695px;
+    cursor: pointer;
+}
+
+.Sobre{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #6959CD;
+    position: relative;
+    bottom: 145px;
+    left: 1120px;
+    cursor: pointer;
+}
+
+footer{
+    padding: 9px 0;
+    background-color: #191970;
+    color: white;
+}
+
+.footer{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 30% 30%;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+footer nav li{
+    display: inline;
+}
+
+.login-2{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 527px;
+}
+
+.login-2:hover{
+    text-decoration: underline;
+}
+
+.termos{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 870px;
+}
+
+.termos:hover{
+    text-decoration: underline;
+}

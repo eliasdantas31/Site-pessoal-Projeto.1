@@ -6,6 +6,7 @@
 
 body{
     background-color: #fffafa;
+    overflow-x: hidden;
 }
 
 header{
@@ -142,6 +143,7 @@ section .face{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 15px;
+    transition: 0.2s;
 }
 
 button:hover{
@@ -193,6 +195,7 @@ section .HE button{
     font-weight: bold;
     font-size: 15px;
     border: none;
+    transition: 0.2s;
 }
 
 section .HE button:hover{
@@ -273,6 +276,7 @@ section img{
     height: 35px;
     width: 120px;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .button-ofertas:hover{
@@ -327,6 +331,7 @@ section img{
     left: 440px;
     bottom: 280px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .paris-branco{
@@ -342,6 +347,7 @@ section img{
     left: 870px;
     bottom: 300px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .NY-branco{
@@ -357,6 +363,7 @@ section img{
     left: 1300px;
     bottom: 320px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .Tokyo-branco{
@@ -372,6 +379,7 @@ section img{
     left: 440px;
     bottom: 145px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .Barcelona-branco{
@@ -387,6 +395,7 @@ section img{
     left: 870px;
     bottom: 170px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .Sydney-branco{
@@ -402,6 +411,7 @@ section img{
     left: 1300px;
     bottom: 190px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .PM-text{
@@ -443,6 +453,7 @@ footer nav li{
     text-decoration: none;
     position: relative;
     left: 400px;
+    transition: 0.5s;
 }
 
 .help:hover{
@@ -454,6 +465,7 @@ footer nav li{
     text-decoration: none;
     position: relative;
     left: 627px;
+    transition: 0.5s;
 }
 
 .login-2:hover{

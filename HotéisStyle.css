@@ -6,6 +6,7 @@
 
 body{
     background-color: #fffafa;
+    overflow-x: hidden;
 }
 
 header{
@@ -395,6 +396,37 @@ header .container nav li a{
     top: 110px;
     border-radius: 1px 1px 5px 5px;
     box-shadow: 2px 3px 3.5px gray;
+    cursor: pointer;
+}
+
+.RJ-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    bottom: 780px;
+    left: 340px;
+    cursor: pointer;
+}
+
+.RJ-text-1{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    bottom: 780px;
+    left: 340px;
+    cursor: pointer;
 }
 
 .PR-img{
@@ -415,6 +447,37 @@ header .container nav li a{
     right: 278px;
     border-radius: 1px 1px 5px 5px;
     box-shadow: 2px 3px 3.5px gray;
+    cursor: pointer;
+}
+
+.PR-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    bottom: 830px;
+    left: 793px;
+    cursor: pointer;
+}
+
+.PR-text-1{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    bottom: 830px;
+    left: 793px;
+    cursor: pointer;
 }
 
 .NY-img{
@@ -435,6 +498,37 @@ header .container nav li a{
     bottom: 145px;
     border-radius: 1px 1px 5px 5px;
     box-shadow: 2px 3px 3.5px gray;
+    cursor: pointer;
+}
+
+.NY-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    bottom: 880px;
+    left: 1245px;
+    cursor: pointer;
+}
+
+.NY-text-1{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    bottom: 880px;
+    left: 1245px;
+    cursor: pointer;
 }
 
 .TK-img{
@@ -455,6 +549,37 @@ header .container nav li a{
     right: 380px;
     border-radius: 1px 1px 5px 5px;
     box-shadow: 2px 3px 3.5px gray;
+    cursor: pointer;
+}
+
+.TK-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    left: 340px;
+    bottom: 455px;
+    cursor: pointer;
+}
+
+.TK-text-1{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    left: 340px;
+    bottom: 455px;
+    cursor: pointer;
 }
 
 .BL-img{
@@ -475,6 +600,37 @@ header .container nav li a{
     top: 325px;
     border-radius: 1px 1px 5px 5px;
     box-shadow: 2px 3px 3.5px gray;
+    cursor: pointer;
+}
+
+.BL-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    bottom: 505px;
+    left: 795px;
+    cursor: pointer;
+}
+
+.BL-text-1{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    bottom: 505px;
+    left: 795px;
+    cursor: pointer;
 }
 
 .SY-img{
@@ -495,6 +651,37 @@ header .container nav li a{
     left: 882px;
     border-radius: 1px 1px 5px 5px;
     box-shadow: 2px 3px 3.5px gray;
+    cursor: pointer;
+}
+
+.SY-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    bottom: 555px;
+    left: 1245px;
+    cursor: pointer;
+}
+
+.SY-text-1{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    bottom: 555px;
+    left: 1245px;
+    cursor: pointer;
 }
 
 footer{

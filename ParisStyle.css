@@ -6,6 +6,7 @@
 
 body{
     background-color: #fffafa;
+    overflow-x: hidden;
 }
 
 header{
@@ -63,6 +64,22 @@ header .container nav li a{
     cursor: pointer;
 }
 
+.header-title{
+    height: 50px;
+    width: 700px;
+    border-radius: 10px;
+    border: 1px solid #191970;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    left: 520px;
+    bottom: 10px;
+    padding-left: 200px;
+}
+
 .Bandeira{
     height: 45px;
     cursor: pointer;
@@ -71,4 +88,447 @@ header .container nav li a{
 .Menu-butt{
     color: white;
     text-decoration: none;
+}
+
+.title-buttons{
+    color: #191970;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 505px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 265px;
+}
+
+.button{
+    height: 25px;
+    width: 160px;
+    border: 1px solid gray;
+    background-color: #fffafa;
+    color: #191970;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button:focus{
+    background-color: #191970;
+    color: #fffafa;
+}
+
+.paises-section{
+    position: relative;
+    top: 350px;
+    right: 55px;
+}
+
+.paises-img{
+    position: relative;
+    bottom: 300px;
+}
+
+.RJ-img{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    left: 330px;
+    top: 25px;
+    border-radius: 5px 5px 1px 1px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.RJ-branco{
+    height: 100px;
+    width: 350px;
+    position: relative;
+    right: 24px;
+    top: 110px;
+    border-radius: 1px 1px 5px 5px;
+    box-shadow: 2px 3px 3.5px gray;
+    cursor: pointer;
+}
+
+.RJ-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    bottom: 780px;
+    left: 340px;
+    cursor: pointer;
+}
+
+.RJ-text-1{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    bottom: 780px;
+    left: 340px;
+    cursor: pointer;
+}
+
+.PR-img{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    top: 25px;
+    left: 76px;
+    border-radius: 5px 5px 1px 1px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.PR-branco{
+    height: 100px;
+    width: 350px;
+    position: relative;
+    top: 110px;
+    right: 278px;
+    border-radius: 1px 1px 5px 5px;
+    box-shadow: 2px 3px 3.5px gray;
+    cursor: pointer;
+}
+
+.PR-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    bottom: 830px;
+    left: 793px;
+    cursor: pointer;
+}
+
+.PR-text-1{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    bottom: 830px;
+    left: 793px;
+    cursor: pointer;
+}
+
+.NY-img{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    right: 180px;
+    top: 25px;
+    border-radius: 5px 5px 1px 1px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.NY-branco{
+    height: 100px;
+    width: 350px;
+    position: relative;
+    left: 1236px;
+    bottom: 145px;
+    border-radius: 1px 1px 5px 5px;
+    box-shadow: 2px 3px 3.5px gray;
+    cursor: pointer;
+}
+
+.NY-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    bottom: 880px;
+    left: 1245px;
+    cursor: pointer;
+}
+
+.NY-text-1{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    bottom: 880px;
+    left: 1245px;
+    cursor: pointer;
+}
+
+.TK-img{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    right: 25px;
+    top: 250px;
+    border-radius: 5px 5px 1px 1px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.TK-branco{
+    height: 100px;
+    width: 350px;
+    position: relative;
+    top: 325px;
+    right: 380px;
+    border-radius: 1px 1px 5px 5px;
+    box-shadow: 2px 3px 3.5px gray;
+    cursor: pointer;
+}
+
+.TK-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    left: 340px;
+    bottom: 455px;
+    cursor: pointer;
+}
+
+.TK-text-1{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    left: 340px;
+    bottom: 455px;
+    cursor: pointer;
+}
+
+.BL-img{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    right: 277px;
+    top: 250px;
+    border-radius: 5px 5px 1px 1px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.BL-branco{
+    height: 100px;
+    width: 350px;
+    position: relative;
+    right: 631px;
+    top: 325px;
+    border-radius: 1px 1px 5px 5px;
+    box-shadow: 2px 3px 3.5px gray;
+    cursor: pointer;
+}
+
+.BL-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    bottom: 505px;
+    left: 795px;
+    cursor: pointer;
+}
+
+.BL-text-1{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    bottom: 505px;
+    left: 795px;
+    cursor: pointer;
+}
+
+.SY-img{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    left: 1236px;
+    bottom: 5px;
+    border-radius: 5px 5px 1px 1px;
+    box-shadow: 2px 3px 3.5px gray;
+}
+
+.SY-branco{
+    height: 100px;
+    width: 350px;
+    position: relative;
+    top: 68px;
+    left: 882px;
+    border-radius: 1px 1px 5px 5px;
+    box-shadow: 2px 3px 3.5px gray;
+    cursor: pointer;
+}
+
+.SY-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    bottom: 555px;
+    left: 1245px;
+    cursor: pointer;
+}
+
+.SY-text-1{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #191970;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    bottom: 555px;
+    left: 1245px;
+    cursor: pointer;
+}
+
+.aviso-branco{
+    width: 850px;
+    height: 100px;
+    border: 1px solid #ffae00;
+    border-radius: 5px;
+    position: relative;
+    left: 510px; 
+}
+
+.aviso-title{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 90px;
+    left: 520px;
+}
+
+.aviso-text{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    position: relative;
+    bottom: 75px;
+    left: 520px;
+}
+
+footer{
+    padding: 9px 0;
+    background-color: #191970;
+    color: white;
+}
+
+.footer{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 30% 30% 30%;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+footer nav li{
+    display: inline;
+}
+
+.help{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 400px;
+    transition: 0.5s;
+}
+
+.help:hover{
+    text-decoration: underline;
+}
+
+.login-2{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 627px;
+    transition: 0.5s;
+}
+
+.login-2:hover{
+    text-decoration: underline;
+}
+
+.termos{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 827px;
+}
+
+.termos:hover{
+    text-decoration: underline;
 }
